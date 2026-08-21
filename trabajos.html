@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajos & Archivo // Angel Gabriel Gomez Angel</title>
+  <meta name="description" content="Archivo de proyectos en gestión cultural, producción técnica, comunicación y registros académicos." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Syne:wght@700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="editorial-layout">
+
+  <!-- BARRA DE NAVEGACIÓN FIJA -->
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-name">A. GABRIEL GOMEZ</span>
+        <span class="brand-slash">/</span>
+        <span class="brand-alias">GAANG</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Navegación editorial">
+        <a href="index.html" class="nav-item"><span class="nav-num">00</span> Inicio</a>
+        <a href="sobre-mi.html" class="nav-item"><span class="nav-num">01</span> Sobre mí</a>
+        <a href="trabajos.html" class="nav-item nav-item--active"><span class="nav-num">02</span> Trabajos</a>
+        <a href="la-marea-viva.html" class="nav-item"><span class="nav-num">03</span> Marea Viva</a>
+        <a href="produccion-musical.html" class="nav-item"><span class="nav-num">04</span> Música</a>
+        <a href="gaang.html" class="nav-item"><span class="nav-num">05</span> Gaang</a>
+      </nav>
+
+      <div class="nav-status">
+        <span class="status-indicator"></span>
+        <span class="status-label">EN PRODUCCIÓN // ACTIVO</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="editorial-section">
+      <div class="section-badge-bar">
+        <span class="index-large">02</span>
+        <h1 class="index-title">ARCHIVO DE TRABAJOS & EVIDENCIAS</h1>
+        <span class="section-rule"></span>
+      </div>
+
+      <div class="projects-editorial-grid">
+        
+        <!-- PROYECTO 01: LA MAREA VIVA -->
+        <article class="project-card project-card--dominant">
+          <div class="project-side-meta">
+            <span class="p-index">REGISTRO: ARC-001</span>
+            <span class="p-category">PROYECTO INSIGNIA // SERIE AUDIOVISUAL</span>
+            <span class="p-year">2026 — ACTIVO</span>
+          </div>
+
+          <div class="project-content-block">
+            <div class="project-header-row">
+              <h3 class="project-name">LA MAREA VIVA: LA PRIMERA OLA</h3>
+              <span class="project-badge">CASO DE ESTUDIO COMPLETO</span>
+            </div>
+            <p class="project-narrative">
+              Plataforma cultural enfocada en visibilizar, dignificar y profesionalizar la escena musical local de Ciudad del Carmen mediante sesiones en vivo grabadas en múltiples puntos urbanos.
+            </p>
+            <div class="project-footer-actions">
+              <a href="la-marea-viva.html" class="editorial-btn editorial-btn--solid">Ver Proyecto Completo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 02: PRODUCCIÓN MUSICAL & REPRODUCTOR -->
+        <article class="project-card project-card--secondary">
+          <div class="project-side-meta">
+            <span class="p-index">REGISTRO: ARC-002</span>
+            <span class="p-category">AUDIO // GAANG</span>
+            <span class="p-year">2020 — 2026</span>
+          </div>
+          <div class="project-content-block">
+            <h3 class="project-name">PRODUCCIÓN & SEÑAL</h3>
+            <p class="project-narrative">
+              Sesiones de composición instrumental, ruteo digital y procesamiento de audio desarrolladas de forma autónoma.
+            </p>
+            
+            <!-- Módulo Visual y Reproductor de Audio -->
+            <div class="work-audio-box">
+              <div class="work-audio-meta">
+                <img src="assets/audio/reaper.png" alt="Entorno de Trabajo Digital REAPER" class="work-daw-icon" onerror="this.style.display='none';" />
+                <div>
+                  <span class="track-tag">[ MUESTRA DE AUDIO // MASTER WAV ]</span>
+                  <strong class="track-title">Asi sea Desmo</strong>
+                </div>
+              </div>
+              <audio controls class="native-audio-player">
+                <source src="assets/audio/Asi sea Desmo.wav" type="audio/wav" />
+                Tu navegador no soporta el reproductor de audio.
+              </audio>
+            </div>
+
+            <div class="project-footer-actions">
+              <a href="produccion-musical.html" class="editorial-link">Ver Laboratorio de Audio →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROYECTO 03: EVIDENCIA ACADÉMICA / PDF -->
+        <article class="project-card project-card--secondary">
+          <div class="project-side-meta">
+            <span class="p-index">REGISTRO: ARC-003</span>
+            <span class="p-category">DOCUMENTACIÓN // UNACAR</span>
+            <span class="p-year">2026</span>
+          </div>
+          <div class="project-content-block">
+            <h3 class="project-name">DOSSIER ACADÉMICO / PROYECTOS CULTURALES</h3>
+            <p class="project-narrative">
+              Documentación técnica, diagnóstico y material de evaluación curricular correspondiente a la gestión de proyectos culturales.
+            </p>
+            
+            <div class="work-pdf-box">
+              <span class="pdf-icon-label">[ PDF ]</span>
+              <div class="pdf-info">
+                <strong>LA MAREA VIVA.pdf</strong>
+                <span>Documento de Entrega Académica</span>
+              </div>
+            </div>
+
+            <div class="project-footer-actions">
+              <a href="assets/docs/LA MAREA VIVA.pdf" target="_blank" rel="noopener noreferrer" class="editorial-btn editorial-btn--outline">Abrir Documento [PDF] ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="editorial-footer">
+    <div class="footer-grid">
+      <span class="f-col">ANGEL GABRIEL GOMEZ ANGEL // GAANG</span>
+      <span class="f-col">COMUNICACIÓN & GESTIÓN CULTURAL (UNACAR)</span>
+      <span class="f-col f-col--right">EDICIÓN DIGITAL © 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
